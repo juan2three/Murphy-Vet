@@ -1,0 +1,48 @@
+@import "_variables.scss";
+.footer { 
+
+	background-color: $primary-color-dark;
+	// border: 2px solid #bfcbdc;
+	h3 {
+		color: $primary-color-text;
+	}
+	p {
+		color: $primary-color-text;
+	}
+	.testimonialImage {
+		margin-top: 20px;
+		width: 100px;
+		height: 100px;
+	}
+	h5 {
+		color: $primary-color-text;
+	}
+	.testimonialCol {
+		margin-top: 20px;
+		padding-left: 0px;
+	}
+	.testimonialImageCol {
+		padding-right: 0px;
+	}
+	i {
+		color: $primary-color-text;
+	}
+	.testimonialArrow {
+		color: $primary-color-text;
+		font-size: 18px;
+		position: relative;
+		top: 20px;
+	}
+	.testimonialArrow:hover {
+		cursor: pointer;
+		color: $primary-color-light;
+	}
+	a {
+		color: $primary-color-text;
+	}
+	a:hover {
+		color: $primary-color-light;
+	}
+
+}
+

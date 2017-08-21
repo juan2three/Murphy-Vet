@@ -1,0 +1,57 @@
+@import "_variables.scss";
+
+
+.home-page {
+	
+	#carousel {
+		border-bottom:1px solid $primary-color-dark;
+		margin-bottom:20px;
+		.visible-xs {
+		a {color:#000;}
+		}
+		img {margin-left:auto;margin-right:auto;display:block;}
+	} // end #carousel
+
+	.caption-left {
+		h3{color:$primary-color-light;margin:0;}
+		background:rgba(0, 0, 0, .6);
+		bottom:auto;
+		right:auto;
+		top:15%;
+		left:15%;
+		float:left;
+		padding:10px;
+		text-align:left;
+		width:40%;
+	}
+
+	.caption-small {
+		h4{color:$primary-color-text;margin:0;}
+		background:rgba(0, 0, 0, .6);
+		padding:5px;
+		margin-left:auto;
+		margin-right:auto;
+		width:40%;
+	}
+
+	.carousel-indicators li {
+		background-color: $primary-color-light;
+		border: 1px solid $primary-color-dark;
+	} // end .carousel-indicators
+
+	.carousel-control span {
+		color:$primary-color-dark;
+	}
+
+	.friendly-message {
+		h3 {color:$primary-color-dark;}
+		background-color:$primary-color-light;
+		-webkit-border-radius:5px;
+		border-radius:5px;
+		color:$primary-color-text;
+		margin:20px 10px 20px 10px;
+		padding:10px;
+	} // end .friendly-message
+
+
+} //end .home-page
